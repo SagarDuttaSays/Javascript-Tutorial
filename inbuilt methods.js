@@ -6,7 +6,7 @@ console.log(even)
 //map method
 let odd = array.map((element)=>element%2!=0)
 console.log(odd)
- 
+  
 //sort method
 array.sort();
 console.log(array)
