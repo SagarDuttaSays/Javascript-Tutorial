@@ -2,7 +2,7 @@ function display(){
     axios.get("https://dummyjson.com/users")
     .then(response=>{
         console.log(response)
-        document.getElementById("users").innerHTML = JSON.stringify(response.data.users) 
+        document.getElementById("users").innerHTML = JSON.stringify(response.data.users)
     })
     .catch(err=>console.log(err))
 }
